@@ -1,0 +1,103 @@
+2. Project Management Tool
+
+The project includes a framework of social
+media sites where users can communicate
+with one another. The users also get the
+functionality to assign tasks to others
+
+code :
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Social Media Site</title>
+  <style>
+    /* Add CSS styles here */
+    body {
+      font-family: Arial, sans-serif;
+    }
+    header {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+    main {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    .post {
+      margin-bottom: 30px;
+      border-bottom: 1px solid #ccc;
+      padding-bottom: 20px;
+    }
+    .post h2 {
+      margin-top: 0;
+    }
+    .task {
+      background-color: #f0f0f0;
+      padding: 10px;
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Welcome to Our Social Media Site</h1>
+  </header>
+
+  <main>
+    <!-- User Profile Section -->
+    <section id="user-profile">
+      <h2>User Profile</h2>
+      <!-- Add user profile information here -->
+      <p>Name: John Doe</p>
+      <p>Email: john@example.com</p>
+      <!-- Add more profile details as needed -->
+    </section>
+
+    <!-- Post Creation Section -->
+    <section id="post-creation">
+      <h2>Create a Post</h2>
+      <!-- Add post creation form here -->
+      <form id="post-form">
+        <label for="post-title">Title:</label>
+        <input type="text" id="post-title" required>
+        <label for="post-content">Content:</label>
+        <textarea id="post-content" rows="4" required></textarea>
+        <button type="submit">Create Post</button>
+      </form>
+    </section>
+
+    <!-- User Posts Section -->
+    <section id="user-posts">
+      <h2>Your Posts</h2>
+      <!-- Display user posts here -->
+      <div class="post">
+        <h3>Post Title 1</h3>
+        <p>Post content goes here...</p>
+        <div class="task">
+          <h4>Task for Jane Doe</h4>
+          <p>Task description goes here...</p>
+          <button>Mark as Complete</button>
+        </div>
+      </div>
+
+      <div class="post">
+        <h3>Post Title 2</h3>
+        <p>Post content goes here...</p>
+        <!-- Add more tasks for this post as needed -->
+      </div>
+
+      <!-- Add more user posts here -->
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2023 OurSocialMediaSite.com</p>
+  </footer>
+</body>
+</html>
